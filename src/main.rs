@@ -85,7 +85,6 @@ impl Tracker {
     }
 }
 
-
 fn main() {
     let (interrupt_sender, interrupt_receiver) = mpsc::channel();
 
